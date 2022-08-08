@@ -8,12 +8,12 @@ export default function Section2() {
         <img src={section2Img} className='w-full' alt="section 2" />
       </div>
       <div className="section2_textContainer">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-5xl font-bold my-8">
           <span className="text-themeBlue">Custom made </span> reports to make
           great decisions
         </h1>
 
-        <p className=" my-8 text-themegray text-lg">
+        <p className=" my-4 text-themegray text-2xl">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipiscing elit domil venenatis
           cursus ultrices arcu pellentesque.{" "}

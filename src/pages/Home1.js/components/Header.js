@@ -9,7 +9,7 @@ export default function Header() {
 <div className="headerText pr-8">
   <h1 className="text-5xl font-bold my-8"> <span className="text-themeBlue">Email</span> marketing for fast-growing startups.</h1>
   <p className="text-2xl my-4 text-themegray">It's simple. We help you send the right messages, on the right channels, at the right time.</p>
-  <button className="text-lg text-white bg-themeBlue rounded-lg py-3 px-12 my-4">Start your Free Trial</button>
+  <button className="text-lg text-white bg-themeBlue hover:bg-blue-600 rounded-lg py-3 px-12 my-4">Start your Free Trial</button>
 </div>
 
 <div className="headerImg pl-8">

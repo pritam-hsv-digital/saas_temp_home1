@@ -9,7 +9,8 @@ module.exports = {
         themeOrange : '#FA7100',
         themeGreen : '#75B617',
         themePurple : '#2700F5',
-        themeLightGray : '#FCFCFF'
+        themeLightGray : '#FCFCFF',
+        'blue-rgba' : 'rgba(2, 1, 58, 0.05)'
       },
     },
   },
