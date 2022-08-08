@@ -7,7 +7,7 @@ import twitterImg from "../../../assets/Twitter.png";
 
 export default function Integration() {
   return (
-    <div className="my-4">
+    <div className="m-8 p-8">
       <div className="heading text-center w-6/12 m-auto my-20">
         <h2 className="text-4xl font-bold my-4">
           Intregrated with more than

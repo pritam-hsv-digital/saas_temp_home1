@@ -4,7 +4,7 @@ import Feature from "./Feature";
 export default function Features() {
   return (
     <div>
-      <div className="heading text-center w-6/12 m-auto ">
+      <div className="heading text-center p-8 my-8 w-8/12 m-auto ">
         <h2 className="text-5xl font-bold my-8">
           A robust set of <span className="text-themeBlue">features</span>
         </h2>

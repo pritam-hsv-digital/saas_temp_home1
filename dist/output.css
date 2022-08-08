@@ -549,6 +549,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -559,10 +563,6 @@ video {
 
 .m-2 {
   margin: 0.5rem;
-}
-
-.m-8 {
-  margin: 2rem;
 }
 
 .m-6 {
@@ -589,8 +589,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mr-4 {
@@ -609,20 +617,28 @@ video {
   display: grid;
 }
 
-.w-5\/12 {
-  width: 41.666667%;
+.hidden {
+  display: none;
+}
+
+.w-6\/12 {
+  width: 50%;
 }
 
 .w-4\/12 {
   width: 33.333333%;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-10\/12 {
   width: 83.333333%;
 }
 
-.w-full {
-  width: 100%;
+.w-8\/12 {
+  width: 66.666667%;
 }
 
 .cursor-pointer {
@@ -645,8 +661,16 @@ video {
   justify-content: space-between;
 }
 
+.overflow-scroll {
+  overflow: scroll;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .bg-themeBlue {
@@ -663,20 +687,16 @@ video {
   padding: 1rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .p-1\.5 {
   padding: 0.375rem;
 }
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-12 {
-  padding: 3rem;
 }
 
 .py-3 {
@@ -717,6 +737,10 @@ video {
   padding-left: 2rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -734,11 +758,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -785,23 +804,49 @@ video {
   color: rgb(39 0 245 / var(--tw-text-opacity));
 }
 
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-blue-rgba {
+  --tw-shadow-color: rgba(2, 1, 58, 0.05);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.hover\:bg-blue-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:m-8 {
     margin: 2rem;
   }
 
-  .sm\:m-6 {
-    margin: 1.5rem;
-  }
-
-  .sm\:mx-60 {
-    margin-left: 15rem;
-    margin-right: 15rem;
-  }
-
   .sm\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+
+  .sm\:flex {
+    display: flex;
   }
 
   .sm\:w-4\/12 {
@@ -810,10 +855,6 @@ video {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sm\:p-20 {
-    padding: 5rem;
   }
 
   .sm\:px-20 {

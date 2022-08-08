@@ -2,7 +2,7 @@ import React from "react";
 import section2Img from "../../../assets/section2.png";
 
 export default function Section2() {
-  return ( <div className="flex p-2 sm:p-20 sm:m-6 m-2">
+  return ( <div className="flex p-8   m-8 sm:px-20">
     <div className="section2 grid  items-center sm:grid-cols-2 justify-between ">
       <div className="section2_ImgContainer w-10/12">
         <img src={section2Img} className='w-full' alt="section 2" />

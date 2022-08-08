@@ -4,7 +4,7 @@ import Group4706 from '../../../assets/Group 4706.png'
 export default function Section() {
   return (
     
-  <section className="feature1  grid  items-center sm:grid-cols-2  p-4 sm:p-20  m-2 sm:m-8">
+  <section className="feature1  grid  items-center sm:grid-cols-2  p-8 sm:px-20  m-2 sm:m-8">
 
   <div className="headerText w-12/12">
     <h1 className="text-5xl font-bold my-8">
